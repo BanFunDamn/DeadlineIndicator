@@ -17,7 +17,7 @@ m_re = datetime(2019,2,14,15,0,0)
 w = 1920
 h = 1080
 
-fsize = 80
+fsize = 90
 
 bc = '#000000'
 fc = "#ff0000"
@@ -42,8 +42,8 @@ while(True):
     canvas.create_text(w-50,h/2-(fsize + 150), text = str(deadline_abst)[:-3], font = ('bitstream charter', fsize), fill = fc, anchor = "e")
     canvas.create_text(w-50,h/2-(fsize + 50), text = str(deadline_repo)[:-3], font = ('bitstream charter', fsize), fill = fc, anchor = "e")
     canvas.create_text(50,h/2+(fsize + 50), text = "Master", font = ('bitstream charter', fsize), fill = fc, anchor = "w")
-    canvas.create_text(200,h/2+(fsize + 150), text = "M_Abstract:", font = ('bitstream charter', fsize), fill = fc, anchor = "w")
-    canvas.create_text(200,h/2+(fsize + 250), text = "M_F_Report:", font = ('bitstream charter', fsize), fill = fc, anchor = "w")
+    canvas.create_text(200,h/2+(fsize + 150), text = "Abstract:", font = ('bitstream charter', fsize), fill = fc, anchor = "w")
+    canvas.create_text(200,h/2+(fsize + 250), text = "F_Report:", font = ('bitstream charter', fsize), fill = fc, anchor = "w")
     canvas.create_text(w-50,h/2+(fsize + 150), text = str(deadline_m_ab)[:-3], font = ('bitstream charter', fsize), fill = fc, anchor = "e")
     canvas.create_text(w-50,h/2+(fsize + 250), text = str(deadline_m_re)[:-3], font = ('bitstream charter', fsize), fill = fc, anchor = "e")
     root.update()
